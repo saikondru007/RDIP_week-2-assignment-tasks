@@ -1,0 +1,68 @@
+<html>
+ <head>
+  <title>Application form</title>
+  <link rel="stylesheet" type="text/css" href="form.css">
+ <script type="text/javascript" src="form.js"></script> 
+ </head>
+ <body id="grad">
+ <center><h1>Application form</h1></center><hr>
+ <form method="get" action="#" name="myform" onsubmit="validateform()">
+ <table align="center" border="0">
+ <tr>
+      <td align='center'>User name:</td>
+      <td><input type="text" name='name'></td>
+ </tr>
+ <tr>
+      <td align='center'>Password</td>
+      <td><input type='password' name='password'></td>
+ </tr>
+ <tr>
+      <td align='center'>Phone No:</td>
+      <td><input type='numbers' name='phno'></td>
+ </tr>
+ <tr>
+  <td align='center'>Email id:</td>
+  <td><input type='text' name='email'></td></tr>
+ <tr>
+      <td align='center'>Gender:</td>
+      <td>
+  <input type="radio" name="Gender" value="Male">Male
+  <input type="radio" name="Gender" value="Female" checked>Female</td></tr>
+ <tr>
+  <td align="center">State:</td>
+  <td>
+  <select name="select">
+  <option>Andhra pradesh</option>
+  <option selected>Arunachal pradesh</option>
+  <option>Tamilnadu</option>
+  <option>karnataka</option>
+  <option>kerala</option></select><br></tr>
+ <tr>
+  <td align="center">Qualification:</td>
+  <td>
+  <input type="checkbox" >SSC<br>
+  <input type="checkbox">Inter<br>
+  <input type="checkbox" >B.TECH<br>
+  <input type="checkbox">M.TECH<br></td>
+ </tr>
+ <tr>
+  <td>File upload:</td>
+  <td align="center">
+  <select name="choose file" value="choose file"></select>
+  <input type="file" name="fileupload" value="fileupload" id="fileupload"> </td>
+ </table>
+ <table align="center">
+ <tr >
+  <td >
+  <input type ="submit" value="submit" name="submit">
+  </td>
+  <td >
+  <input type ="reset" value="reset" name="reset">
+  </td>
+  <td>
+  <button type="button">cancel</button></td>
+ </tr>
+ </table><hr>
+ </form>
+ </body>
+</html>
